@@ -11,6 +11,7 @@ services:
       TYPE: "SPIGOT"
       VERSION: "1.21.3"
       EULA: "TRUE"
+      BUILD_FROM_SOURCE: "true"
       MAX_MEMORY: "16G"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "votre_mot_de_passe_rcon_sécurisé"
