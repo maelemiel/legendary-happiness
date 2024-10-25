@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#logs {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#response {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.command-container {
+    margin-bottom: 20px;
+}
+
+.command-list {
+    margin-left: 10px;
+}
+
+.command-list strong {
+    color: #2b82d9;
+    font-size: 1.2em;
+}
+
+.command-list ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.command-list ul li {
+    list-style-type: circle;
+}
