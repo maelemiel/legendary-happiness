@@ -23,7 +23,6 @@ services:
     volumes:
       - "./data:/data"
       - "./plugins_source:/plugins_source"
-    entrypoint: /bin/bash -c "/initialize_plugins.sh && /start"
 
   flask_api:
     build: ./flask_api
