@@ -26,6 +26,8 @@ sudo chown -R 1000:1000 ./data
 sudo chmod -R 775 ./data
 ```
 
+ensuite :
+
 ```sh
 sudo docker-compose up -d --build
 ```
