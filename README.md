@@ -1,5 +1,12 @@
 # In Progress
 
+## Ce qui fonctionne :
+- serveur minecraft sur spigot
+
+## Ce qui ne fonctionne pas :
+- Mes plugins
+- L'api flask
+
 # Minecraft
 
 ## Dans le répertoire contenant le fichier docker-compose.yml et le dossier flask_api, exécutez la commande suivante pour démarrer l'environnement :
