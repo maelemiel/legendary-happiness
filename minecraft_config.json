@@ -1,0 +1,30 @@
+{
+    "server": {
+        "difficulty": "normal",
+        "allow-nether": true,
+        "max-players": 20,
+        "view-distance": 10,
+        "server-name": "Mon Super Serveur",
+        "spawn-protection": 16,
+        "spawn-npcs": true,
+        "spawn-animals": true,
+        "spawn-monsters": true,
+        "generate-structures": true,
+        "allow-flight": false,
+        "level-name": "world",
+        "motd": "Bienvenue sur mon serveur!",
+        "pvp": true,
+        "hardcore": false
+    },
+    "system": {
+        "memory": {
+            "min": "4G",
+            "max": "16G"
+        },
+        "rcon": {
+            "enabled": true,
+            "port": 25575,
+            "password": "votre_mot_de_passe_rcon_sécurisé"
+        }
+    }
+}

@@ -7,18 +7,12 @@ services:
     ports:
       - "25565:25565"
       - "25575:25575"
-    environment:
-      EULA: "TRUE"
-      ONLINE_MODE: "FALSE"
-      ENABLE_RCON: "true"
-      RCON_PASSWORD: "votre_mot_de_passe_rcon_sécurisé"
-      RCON_PORT: "25575"
     networks:
       - minecraft_network
     restart: on-failure
     volumes:
-      - "./data:/minecraft"
-    user: "1000:1000"
+      - minecraft_data:/minecraft
+
   flask_api:
     build: ./flask_api
     container_name: flask_api
@@ -34,7 +28,7 @@ services:
     depends_on:
       - minecraft
     volumes:
-      - "./flask_api:/app"
+      - ./flask_api:/app
     networks:
       - minecraft_network
     restart: on-failure
@@ -42,3 +36,6 @@ services:
 networks:
   minecraft_network:
     driver: bridge
+
+volumes:
+  minecraft_data:
